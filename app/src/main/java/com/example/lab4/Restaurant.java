@@ -27,5 +27,10 @@ public class Restaurant {
     {
         return (type);
     }
+
+    @Override
+    public String toString(){
+        return  (getName());
+    }
 }
 
